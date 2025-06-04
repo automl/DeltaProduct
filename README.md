@@ -7,7 +7,7 @@
     <img src="experiments.png" alt="isolated" width="90%"/>
 </p>
 
-## Note:
+## Note
 This is the code to carry out our experiments, we contributed DeltaProduct to [flash-linear-attention](https://github.com/fla-org/flash-linear-attention) which is the version we will keep updating.
 
 ## Abstract
