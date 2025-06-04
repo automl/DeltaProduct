@@ -10,10 +10,10 @@
 ## Note
 This is the code to carry out our experiments, we contributed DeltaProduct to [flash-linear-attention](https://github.com/fla-org/flash-linear-attention) which is the version we will keep updating.
 
-## Abstract
+## Abstract ([link to paper]([https://github.com/fla-org/flash-linear-attention](https://arxiv.org/abs/2502.10297)))
 > Linear Recurrent Neural Networks (linear RNNs) have emerged as competitive alternatives to Transformers for sequence modeling, offering efficient training and linear-time inference. However, existing architectures face a fundamental trade-off between expressivity and efficiency, dictated by the structure of their state-transition matrices. Diagonal matrices, used in models such as Mamba, GLA, or mLSTM, yield fast runtime but have limited expressivity. To address this, recent architectures such as DeltaNet and RWKV-7 adopted a diagonal plus rank-1 structure, which allows simultaneous token and channel mixing, improving associative recall and, as recently shown, state-tracking when  allowing negative eigenvalues in the state-transition matrices. Building on the interpretation of DeltaNet's recurrence as performing one step of online gradient descent per token on an associative recall loss, we introduce DeltaProduct, which instead takes multiple ($n_h$) steps per token. This naturally leads to diagonal plus rank- $n_h$ state-transition matrices, formed as products of $n_h$ generalized Householder transformations, providing a tunable mechanism to balance expressivity and efficiency. We provide a detailed theoretical characterization of the state-tracking capability of DeltaProduct in finite precision and how it improves by increasing $n_h$. Our extensive experiments demonstrate that DeltaProduct outperforms DeltaNet in both state-tracking and language modeling, while also showing significantly improved length extrapolation capabilities.
-## Acknowledgements
 
+## Acknowledgements
 This repository builds upon two key sources:
 - [Illusion of State in State-Space Models](https://github.com/jopetty/word-problem). The primary modification in this version is the integration of the DeltaProduct mechanism.
 - [Flash-Linear-Attention](https://github.com/fla-org/flash-linear-attention). We leverage the triton implementation of (Gated) DeltaNet in order to implement DeltaProduct.
