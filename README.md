@@ -6,7 +6,7 @@
 <p align="center">
     <img src="experiments.png" alt="isolated" width="90%"/>
 </p>
-[Link to paper]([https://github.com/fla-org/flash-linear-attention](https://arxiv.org/abs/2502.10297)
+[Link to paper](https://arxiv.org/abs/2502.10297)
 
 
 ## Note
