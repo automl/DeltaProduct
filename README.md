@@ -6,6 +6,7 @@
 <p align="center">
     <img src="experiments.png" alt="isolated" width="90%"/>
 </p>
+
 [Link to paper](https://arxiv.org/abs/2502.10297)
 
 
