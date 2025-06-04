@@ -1,0 +1,203 @@
+[1mNAME[0m
+    main.py
+
+[1mSYNOPSIS[0m
+    main.py [4mGROUP[0m | [4mCOMMAND[0m | [4mVALUE[0m
+
+[1mGROUPS[0m
+    [1m[4mGROUP[0m[0m is one of the following:
+
+     logging
+       Logging package for Python. Based on PEP 282 and comments thereto in comp.lang.python.
+
+     fire
+       The Python Fire module.
+
+     humanize
+       Main package for humanize.
+
+     pl
+
+     pyrootutils
+
+     torch
+       The torch package contains data structures for multi-dimensional tensors and defines mathematical operations over these tensors. Additionally, it provides many utilities for efficient serialization of Tensors and arbitrary types, and other useful utilities.
+
+     F
+       Functional interface.
+
+     optim
+       :mod:`torch.optim` is a package implementing various optimization algorithms.
+
+     log
+       An adapter to assist with logging in multiprocess.
+
+[1mCOMMANDS[0m
+    [1m[4mCOMMAND[0m[0m is one of the following:
+
+     Callable
+
+     StrEnum
+       Enum where members are also (and must be) strings
+
+     partial
+       partial(func, *args, **keywords) - new function with partial application of the given arguments and keywords.
+
+     Path
+       PurePath subclass that can make system calls.
+
+     pformat
+       Format a Python object into a pretty-printed representation.
+
+     randint
+       Return random integer in range [a, b], including both end points.
+
+     Accelerator
+       Creates an instance of an accelerator for distributed training (on multi-GPU, TPU) or mixed precision training.
+
+     get_logger
+       Returns a `logging.Logger` for `name` that can handle multiprocessing.
+
+     set_seed
+       Helper function for reproducible behavior to set the seed in `random`, `numpy`, `torch`.
+
+     concatenate_datasets
+       Converts a list of [`Dataset`] with the same schema into a single [`Dataset`].
+
+     load_dataset
+       Load a dataset from the Hugging Face Hub, or a local dataset.
+
+     load_dotenv
+       Parse a .env file and then load all the variables found as environment variables.
+
+     OrderedSet
+       An OrderedSet is a custom MutableSet that remembers its order, so that every entry has an index that can be looked up.
+
+     ce_loss
+       Compute the cross-entropy loss.
+
+     detach_and_pad
+       Detach tensors from accelerator and pad them to be the same length.
+
+     reduce_metrics
+       Returns a average of metrics weighted by sample count across batches.
+
+     sequence_accuracy
+       Compute the per-sequence accuracy of a batch of predictions.
+
+     token_accuracy
+       Compute the per-token accuracy of a batch of predictions.
+
+     MLPSequenceClassifier
+       An MLP with a linear classifier head.
+
+     GRUSequenceClassifier
+       A GRU sequence-level classifier.
+
+     GRUTokenClassifier
+       A GRU token-level classifier.
+
+     LSTMSequenceClassifier
+       An LSTM sequence-level classifier.
+
+     LSTMTokenClassifier
+       An LSTM token-level classifier.
+
+     SRNSequenceClassifier
+       An SRN sequence-level classifier.
+
+     SRNTokenClassifier
+       An SRN token-level classifier.
+
+     S4TokenClassifier
+       S4 Token Classifier.
+
+     IDS4TokenClassifier
+       IDS4 Token Classifier.
+
+     LinDiagRNNSimple
+       Base class for all neural network modules.
+
+     LinRNNSimple
+       Base class for all neural network modules.
+
+     EncoderSequenceClassifier
+       A Transformer encoder with a linear classifier head & sequence pooling.
+
+     EncoderTokenClassifier
+       A Transformer encoder with a linear classifier head.
+
+     Tokenizer
+       A :obj:`Tokenizer` works as a pipeline. It processes some raw text as input and outputs an :class:`~tokenizers.Encoding`.
+
+     WordLevel
+       An implementation of the WordLevel algorithm
+
+     WhitespaceSplit
+       This pre-tokenizer simply splits on the whitespace. Works like `.split()`
+
+     TemplateProcessing
+       Provides a way to specify templates in order to add the special tokens to each input sequence as relevant.
+
+     Tensor
+
+     DataLoader
+       Data loader combines a dataset and a sampler, and provides an iterable over the given dataset.
+
+     tqdm
+       Asynchronous-friendly version of tqdm.
+
+     PreTrainedTokenizerFast
+       Base class for all fast tokenizers (wrapping HuggingFace tokenizers library).
+
+     MambaTokenClassifier
+       A Mamba model with a token classification head.
+
+     SpecialTokens
+       Special tokens for tokenizer.
+
+     pad_collate
+       Collate function for DataLoader.
+
+     tokenize
+       Tokenize inputs.
+
+     get_dataset
+       Construct dataset.
+
+     compute_metrics
+       Compute metrics.
+
+     train_mlp
+       Train MLP model.
+
+     train_trns
+       Train transformer model.
+
+     train_mamba
+       Train Mamba model.
+
+     train_s4
+       Train Mamba model.
+
+     train_ids4
+       Train IDS4 model.
+
+     train_linrnnsimple
+       Train Simple RNN model.
+
+     train_srn
+       Train SRN model.
+
+     train_gru
+       Train GRU model.
+
+     train_lstm
+       Train GRU model.
+
+[1mVALUES[0m
+    [1m[4mVALUE[0m[0m is one of the following:
+
+     PROJECT_ROOT
+
+     path
